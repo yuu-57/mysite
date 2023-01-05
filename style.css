@@ -10,7 +10,7 @@ body {
 
 /* サイト全体のコンテンツ幅 */
 .container {
-/*   outline: 2px solid blue; */
+  outline: 2px solid blue;
   margin: 0 auto;
   max-width: 1000px;
   /* width: calc(100% - 20px); */
@@ -21,7 +21,7 @@ body {
 
 /* 中のコンテンツ部分の最大幅 */
 .inner {
-/*   outline: 2px solid red; */
+  outline: 2px solid red;
   max-width: 600px;
   margin: 0 auto;
   /* それぞれの中身を.innerで囲ってあげると、(text-align:leftなら)行頭が揃ってキレイに見える */
