@@ -20,7 +20,7 @@ body {
 
 /* 中のコンテンツ部分の最大幅 */
 .inner {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   /* それぞれの中身を.innerで囲ってあげると、(text-align:leftなら)行頭が揃ってキレイに見える */
 }
@@ -59,6 +59,7 @@ a:hover {
 
 .hero {
   margin-bottom: 60px;
+  text-align: center;
 }
 
 /* index */
@@ -116,7 +117,7 @@ a:hover {
 .detail dl {
   font-size: 14px;
   display: flex;
-  padding: 16px 0;
+  padding: 20px 0;
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   flex-wrap: wrap;
